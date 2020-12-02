@@ -101,7 +101,7 @@ function draw() {
 
 
   textSize(80);
-  text("Keep both of your arms up to start!", width / 2, height - 80);
+  text("Keep your right arm up to start!", width / 2, height - 80);
 
   image(mainPoseBlack, width / 4 - 90, height / 2 - 50, 250, 250);
   image(rightArmTrans, width / 4 * 3 + 90, height / 2 - 50, 250, 250);
