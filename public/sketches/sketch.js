@@ -10,6 +10,8 @@ let labels = [
 // webcam
 let video;
 
+let ra = 0;
+
 // poseNet
 let poseNet;
 let poses = [];
@@ -130,6 +132,11 @@ function draw() {
       redirectToPaint();
     }
   }
+      if (ra == 100) {
+    classify();
+   }
+   ra++
+    
   }
 
   // textAlign(CENTER, CENTER);
