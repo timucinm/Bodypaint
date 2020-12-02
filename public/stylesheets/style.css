@@ -15,6 +15,7 @@ body {
 }
 
 .button {
+display : none;
   margin-top: 8px;
   margin-right: 8px;
   border-radius:4px;
