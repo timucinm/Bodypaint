@@ -135,7 +135,7 @@ function draw() {
       if (ra == 100) {
     classify();
    }
-   ra++
+   ra++;
     
   }
 
